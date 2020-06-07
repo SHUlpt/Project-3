@@ -19,10 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="idnode.h" />
+    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp" />
+    <ClInclude Include="idnode.h" />
+    <ClInclude Include="mainlist.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
